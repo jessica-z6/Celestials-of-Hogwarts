@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'Lumos';
+    src: url('C:\Users\Jessica\AppData\Local\Microsoft\Windows\Fonts\Hpposter-xxDV.ttf') format('truetype');
+}
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Hpposter', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#houseButtons img {
+    width: 100px; /* Adjust based on actual size */
+    margin: 10px;
+    cursor: pointer;
+}
+
+#houseButtons {
+    margin-bottom: 20px;
+}
+
+#nasaImage img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+#characterName, #spell {
+    margin-top: 20px;
+}
